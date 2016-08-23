@@ -1,0 +1,25 @@
+{
+  "name" : "dslink-dart-example_link",
+  "version" : "1.0.0",
+  "description" : "ExampleLink DSLink",
+  "main" : "bin/run.dart",
+  "engines" : {
+    "dart" : ">1.13.0"
+  },
+  "getDependencies" : [
+    "pub get"
+  ],
+  "configs" : {
+    "broker" : {
+      "type" : "url"
+    },
+    "name" : {
+      "type" : "string",
+      "default" : "ExampleLink"
+    },
+    "token" : {
+      "type" : "string"
+    }
+  }
+}
+
